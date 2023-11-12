@@ -64,7 +64,7 @@ Follow these steps to deploy your microservice application:
    - Follow the steps mentioned in [this](https://docs.aws.amazon.com/eks/latest/userguide/service_IAM_role.html) documentation using root user
    - After creating it will look like this:
 
-   <p align="center">
+<p align="center">
   <img src="./Project documentation/ekscluster_role.png" width="600" title="ekscluster_role" alt="ekscluster_role">
   </p>
 
@@ -112,9 +112,6 @@ Follow these steps to deploy your microservice application:
 <p align="center">
   <img src="./Project documentation/inbound_rules_sg.png" width="600" title="Inbound_rules_sg" alt="Inbound_rules_sg">
   </p>
-
-#### Enable EBS CSI Addon
-1. enable addon `ebs csi` this is for enabling pvcs once cluster is created
 
 <p align="center">
   <img src="./Project documentation/ebs_addon.png" width="600" title="ebs_addon" alt="ebs_addon">
